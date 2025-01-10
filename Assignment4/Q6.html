@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Health survey</title>
+</head>
+<body>
+ <h1>Health Survey</h1>
+ <form action="/submit" method="post">
+
+ <label>Name :</label>
+ <input type="text" id="name" name="name" required><br><br>
+
+ <label>Email :</label>
+ <input type="email" id="email" name="email" required><br><br>
+
+ <label>Age :</label>
+ <input type="text" id="age" name="age" required><br>
+
+  <p>Gender: </p>
+ <input type="radio" id="male" name="male" value="Male">
+ <label for="Male">Male</label><br>
+ <input type="radio" id="female" name="female" value="female">
+ <label for="female">Female</label><br>
+ <input type="radio" id="other" name="other" value="other">
+ <label for="other">Other</label><br>
+ <input type="radio" id="secret" name="secret" value="secret">
+ <label for="secret">Prefer not to say</label><br> <br>
+
+ <label>Height ( in ft ):</label>
+ <input type="text" id="height" name="height" required><br> <br>
+
+ <label>Weight ( in kg ):</label>
+ <input type="text" id="weight" name="weight" required><br><br>
+
+ <p>Lifestyle Questions :</p>
+ <input type="checkbox" id="q1" name="q1" value="q1">
+<label for="q1">I smoke often</label><br>
+<input type="checkbox" id="q2" name="q2" value="q2">
+<label for="q2">I Drink often</label><br>
+<input type="checkbox" id="q3" name="q3" value="q3">
+<label for="q3">I have consulted other doctors</label><br>
+<input type="checkbox" id="q4" name="q4" value="q4">
+<label for="q4">Similar health issues in family members </label><br><br>
+
+ <label for="diet">Dietary Preferences:</label>
+ <select id="diet" name="diet">
+   <option value="veg">Vegetarian</option>
+   <option value="non veg">Non Vegetarian</option>
+ </select><br><br>
+
+
+ <label>Health concerns:</label>
+ <input type="text" id="concerns" name="concerns"><br><br>
+
+ <button type="submit">Submit</button>  &nbsp;&nbsp;&nbsp; <button type="reset">Reset</button><br><br>
+ 
+ 
+ </form>
+
+
+ </form>
+</body>
+</html>
