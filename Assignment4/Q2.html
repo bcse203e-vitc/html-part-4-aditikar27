@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Barrons Books and Baubles</title>
+</head>
+<body>
+ <h1>Barrons Books and Baubles</h1>
+ <form action="/submit" method="post">
+
+ <label>Full name :</label>
+ <input type="text" id="name" name="name" required><br><br>
+
+ <label>Email :</label>
+ <input type="email" id="email" name="email" required><br><br>
+
+ <label>Phone no :</label>
+ <input type="tel" id="phone" name="phone" required><br>
+
+ <p>Gender: </p>
+ <input type="radio" id="male" name="male" value="Male">
+ <label for="Male">Male</label><br>
+ <input type="radio" id="female" name="female" value="female">
+ <label for="female">Female</label><br>
+ <input type="radio" id="other" name="other" value="other">
+ <label for="other">Other</label><br>
+ <input type="radio" id="secret" name="secret" value="secret">
+ <label for="secret">Prefer not to say</label><br> <br>
+ 
+ <label for="age">Choose an age group:</label>
+ <select id="age" name="age">
+   <option value="18-25">18 - 25</option>
+   <option value="25-35">26 - 35</option>
+   <option value="35-45">36 - 45</option>
+   <option value="older">other than 45</option>
+   <option value="younger">younger than 18</option>
+ </select><br><br>
+ <p>Genres I am interested in :</p>
+ <input type="checkbox" id="Fantasy" name="Fantasy" value="Fantasy">
+<label for="Fantasy">Fantasy</label><br>
+<input type="checkbox" id="Fiction" name="Fiction" value="Fiction">
+<label for="Fiction">Fiction</label><br>
+<input type="checkbox" id="Thriller" name="Thriller" value="Thriller">
+<label for="Thriller">Thriller</label><br>
+<input type="checkbox" id="Educational" name="Educational" value="Educational">
+<label for="Educational">Educational</label><br><br>
+
+ <label>Comments:</label>
+ <input type="text" id="nocomments" name="nocomments"><br><br>
+
+ <button type="submit">Register</button><br><br>
+
+ 
+ 
+ </form>
+
+
+ </form>
+</body>
+</html>

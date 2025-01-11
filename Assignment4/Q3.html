@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Feedback Form</title>
+</head>
+<body>
+ <h1>Feedback Form</h1>
+ <form action="/submit" method="post">
+
+ <label>Name :</label>
+ <input type="text" id="name" name="name" required><br><br>
+
+ <label>Email :</label>
+ <input type="email" id="email" name="email" required><br><br>
+
+ <label>Phone no :</label>
+ <input type="tel" id="phone" name="phone" required><br>
+
+ <p>Rating : </p>
+ <input type="radio" id="star" name="star" value="★">
+ <label><span class >★</span></label><br>
+ <input type="radio" id="star" name="star" value="★★">
+ <label><span class >★★</span></label><br>
+ <input type="radio" id="star" name="star" value="★★★">
+ <label><span class >★★★</span></label><br>
+ <input type="radio" id="star" name="star" value="★★★★">
+ <label><span class >★★★★</span></label><br>
+ <input type="radio" id="star" name="star" value="★★★★★">
+ <label><span class >★★★★★</span></label>
+ <br><br>
+
+ <p>Would you reccomend us?</p>
+ <input type="radio" id="yes" name="yes" value="yes">
+ <label for="yes">Yes</label>
+ <input type="radio" id="no" name="no" value="no">
+ <label for="no">No</label><br><br>
+ 
+ <label for="feedback">Type of Feedback:</label>
+ <select id="feedback" name="feedback">
+   <option value="Suggestion">Suggestion</option>
+   <option value="Bug Report">Bug Report</option>
+   <option value="Compliment">Compliment</option>
+ </select><br><br>
+
+
+ <label>Feedback:</label>
+ <input type="text" id="feedback" name="feedback"><br><br>
+
+ <button type="submit">Submit</button>  &nbsp;&nbsp;&nbsp; <button type="reset">Reset</button><br><br>
+ 
+ 
+ </form>
+
+
+ </form>
+</body>
+</html>
