@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Travelling Booking form</title>
+</head>
+<body>
+ <h1>Make my trip</h1>
+ <form action="/submit" method="post">
+
+ <label>Full name :</label>
+ <input type="text" id="name" name="name" required><br><br>
+ <p>Contact info: <br></p>
+ <label>Email :</label>
+ <input type="email" id="email" name="email" required><br><br>
+
+ <label>Phone no :</label>
+ <input type="tel" id="phone" name="phone" required><br><br>
+
+ <label>Date:</label>
+ <input type="date" id="date" name="date"><br><br>
+
+ <label>Number of Travelers:</label>
+ <input type="text" id="no" name="no"><br><br>
+
+ <p>Travel Class: </p>
+ <input type="radio" id="Economy" name="Economy" value="Economy">
+ <label for="Economy">Economy</label><br>
+ <input type="radio" id="Business" name="Business" value="Business">
+ <label for="Business">Business</label><br>
+ <input type="radio" id="First" name="First" value="First">
+ <label for="First">First Class</label><br> <br>
+ 
+ 
+ <p>Travel Insurance:</p>
+ <input type="checkbox" id="y" name="y" value="y">
+<label for="y">yes</label><br>
+<input type="checkbox" id="n" name="n" value="n">
+<label for="n">no</label><br>
+
+
+ <button type="submit">Register</button><br><br>
+
+ 
+ 
+ </form>
+
+
+ </form>
+</body>
+</html>
